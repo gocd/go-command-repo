@@ -1,0 +1,13 @@
+<!--
+name: msbuild windows
+description: A Microsoft build tool. REBUILD performs a CLEAN operation before building the project. CFG determines the solution configuration to be built.
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://lyricsoft.blogspot.in/2012/08/we-are-often-asked-about-using.html
+keywords: msbuild, nant, build, windows
+-->
+<exec command="MsBuild">
+  <arg>D:\path\to\project.sln</arg>
+  <arg>/REBUILD</arg>
+  <arg>/CFG="Release_99|Win32"</arg>
+</exec>
