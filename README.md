@@ -8,7 +8,7 @@ with various tools via [Go's custom command](http://support.thoughtworks.com/ent
 This Readme describes syntax of a command and the structure of the repository.
 For full documentation about Go's support for this feature, please see:
 
-<http://www.thoughtworks.com/products/docs/go/current/help/command_repository.html>
+<http://www.go.cd/documentation/user/current/advanced_usage/command_repository.html>
 
 Also check out these articles explaining how this can be used.
 
