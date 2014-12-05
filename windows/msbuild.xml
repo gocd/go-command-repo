@@ -1,13 +1,14 @@
 <!--
 name: msbuild windows
-description: A Microsoft build tool. REBUILD performs a CLEAN operation before building the project. CFG determines the solution configuration to be built.
+description: Microsoft .NET build tool. This uses .NET 4 tools. Target rebuild performs a clean rebuild. The configuration parameter determines the solution configuration to be built (e.g. Release or Debug). The build file can be a solution, project or custom msbuild file.
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://lyricsoft.blogspot.in/2012/08/we-are-often-asked-about-using.html
-keywords: msbuild, nant, build, windows
+keywords: msbuild, build, windows, solution, microsoft
 -->
-<exec command="MsBuild">
-  <arg>D:\path\to\project.sln</arg>
-  <arg>/REBUILD</arg>
-  <arg>/CFG="Release_99|Win32"</arg>
+<exec command="%Windir%\Microsoft.NET\Framework64\v4.0.30319\MsBuild.exe">
+  <arg>relative path\to\buildfile.msbuild</arg>
+  <arg>/T:rebuild</arg>
+  <arg>/P:Configuration=Release"</arg>
+  <arg>/m</arg>
 </exec>
