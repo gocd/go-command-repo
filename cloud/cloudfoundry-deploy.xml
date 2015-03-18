@@ -1,0 +1,12 @@
+<!--
+name: cloudfoundry deploy
+description: Deloy an app to cloudfoundry
+moreinfo: http://docs.cloudfoundry.org/devguide/deploy-apps/
+keywords: deploy, cloud, cloudfoundry
+author: Etourneau Gwenn
+authorinfo: https://github.com/shinji62
+-->
+<exec command="cf">
+<arg>push</arg>
+<arg>ApplicationName</arg>
+</exec>
