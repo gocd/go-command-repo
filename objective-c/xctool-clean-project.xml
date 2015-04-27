@@ -1,0 +1,15 @@
+<!--
+  name: xctool-clean-project
+  description: Remove build products and intermediate files from the build root (SYMROOT).
+  author: Kerr Marin Miller
+  authorinfo: https://github.com/kerrmarin
+  keywords: xctool, clean, project
+  moreinfo: https://github.com/facebook/xctool
+-->
+<exec command="xctool">
+  <arg>-project</arg>
+  <arg>YourProject.xcproj</arg>
+  <arg>-scheme</arg>
+  <arg>YourScheme</arg>
+  <arg>clean</arg>
+</exec>

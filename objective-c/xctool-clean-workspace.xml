@@ -1,0 +1,15 @@
+<!--
+name: xctool-clean-workspace
+description: Remove build products and intermediate files from the build root (SYMROOT).
+author: Kerr Marin Miller
+authorinfo: https://github.com/kerrmarin
+keywords: xctool, clean, workspace
+moreinfo: https://github.com/facebook/xctool
+-->
+<exec command="xctool">
+<arg>-workspace</arg>
+<arg>YourWorkspace.xcworkspace</arg>
+<arg>-scheme</arg>
+<arg>YourScheme</arg>
+<arg>clean</arg>
+</exec>
