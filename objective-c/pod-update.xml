@@ -1,0 +1,12 @@
+<!--
+  name: pod-update
+  description: CocoaPods is the dependency manager for Swift and Objective-C Cocoa projects. 
+  keywords: pod, cocoapods, pod update
+  moreinfo: https://cocoapods.org
+  author: Kerr Marin Miller
+  authorinfo: https://github.com/kerrmarin
+-->
+
+<exec command="pod">
+  <arg>update</arg>
+</exec>
