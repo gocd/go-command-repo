@@ -1,0 +1,13 @@
+<!--
+  name: pod-spec-lint
+  description: Validates NAME.podspec. If a DIRECTORY is provided, it validates the podspec files found, including subfolders. In case the argument is omitted, it defaults to the current working dir.
+  keywords: pod, cocoapods
+  moreinfo: https://guides.cocoapods.org/terminal/commands.html#pod_spec_lint
+  author: Kerr Marin Miller
+  authorinfo: https://github.com/kerrmarin
+-->
+
+<exec command="pod">
+  <arg>spec</arg>
+  <arg>lint</arg>
+</exec>

@@ -1,8 +1,8 @@
 <!--
   name: pod-install
-  description: CocoaPods is the dependency manager for Swift and Objective-C Cocoa projects. 
+  description: Downloads all dependencies defined in Podfile and creates an Xcode Pods library project in ./Pods. 
   keywords: pod, cocoapods
-  moreinfo: https://cocoapods.org
+  moreinfo: https://guides.cocoapods.org/terminal/commands.html#pod_install
   author: Kerr Marin Miller
   authorinfo: https://github.com/kerrmarin
 -->
