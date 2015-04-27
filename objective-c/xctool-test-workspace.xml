@@ -1,0 +1,15 @@
+<!--
+name: xctool-test-workspace
+description: Test a scheme from the build root (SYMROOT).  This requires specifying a scheme and optionally a destination.
+author: Kerr Marin Miller
+authorinfo: https://github.com/kerrmarin
+keywords: xctool, test, workspace
+moreinfo: https://github.com/facebook/xctool#testing
+-->
+<exec command="xctool">
+<arg>-workspace</arg>
+<arg>YourWorkspace.xcworkspace</arg>
+<arg>-scheme</arg>
+<arg>YourScheme</arg>
+<arg>test</arg>
+</exec>
