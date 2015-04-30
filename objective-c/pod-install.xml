@@ -1,0 +1,12 @@
+<!--
+  name: pod-install
+  description: Downloads all dependencies defined in Podfile and creates an Xcode Pods library project in ./Pods. 
+  keywords: pod, cocoapods
+  moreinfo: https://guides.cocoapods.org/terminal/commands.html#pod_install
+  author: Kerr Marin Miller
+  authorinfo: https://github.com/kerrmarin
+-->
+
+<exec command="pod">
+  <arg>install</arg>
+</exec>

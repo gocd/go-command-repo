@@ -1,0 +1,12 @@
+<!--
+  name: pod-update
+  description: C.ocoaPod the Pods identified by the specified POD_NAMES. If no POD_NAMES are specified it updates all the Pods ignoring the contents of the Podfile.lock. This command is reserved to the update of dependencies and pod install should be used to install changes to the Podfile. is the dependency manager for Swift and Objective-C Cocoa projects. 
+  keywords: pod, cocoapods, pod update
+  moreinfo: https://guides.cocoapods.org/terminal/commands.html#pod_update
+  author: Kerr Marin Miller
+  authorinfo: https://github.com/kerrmarin
+-->
+
+<exec command="pod">
+  <arg>update</arg>
+</exec>
