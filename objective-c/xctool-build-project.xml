@@ -1,0 +1,17 @@
+<!--
+name: xctool-build-project
+description: Build the target in the build root (SYMROOT).  This is the default build action.
+author: Kerr Marin Miller
+authorinfo: https://github.com/kerrmarin
+keywords: xctool, build, project
+moreinfo: https://github.com/facebook/xctool#building
+-->
+<exec command="xctool">
+<arg>-project</arg>
+<arg>YourProject.xcodeproj</arg>
+<arg>-scheme</arg>
+<arg>YourScheme</arg>
+<arg>-sdk</arg>
+<arg>YourSDK</arg>
+<arg>build</arg>
+</exec>

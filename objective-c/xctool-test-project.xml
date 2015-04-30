@@ -1,0 +1,15 @@
+<!--
+name: xctool-test-project
+description: Test a scheme from the build root (SYMROOT).  This requires specifying a scheme and optionally a destination.
+author: Kerr Marin Miller
+authorinfo: https://github.com/kerrmarin
+keywords: xctool, test, project
+moreinfo: https://github.com/facebook/xctool#testing
+-->
+<exec command="xctool">
+<arg>-project</arg>
+<arg>YourProject.xcproj</arg>
+<arg>-scheme</arg>
+<arg>YourScheme</arg>
+<arg>test</arg>
+</exec>
