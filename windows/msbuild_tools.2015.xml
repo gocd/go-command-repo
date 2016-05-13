@@ -1,0 +1,13 @@
+<!--
+name: msbuild windows (with tools 2015)
+description: Microsoft Build Tools 2015 provides the essential tools for building managed applications targetting .NET framework 4.6 and above, Target rebuild performs a clean rebuild. The configuration parameter determines the solution configuration to be built (e.g. Release or Debug). The build file can be a solution, project or custom msbuild file.
+author: Carlos Camacho
+moreinfo: As prerequisite install the build tools in the agents https://www.microsoft.com/en-us/download/details.aspx?id=48159
+keywords: msbuild, build, windows, solution, microsoft, tools 2015
+-->
+<exec command="&quot;&quot;%PROGRAMFILES(X86)%\MSBuild\14.0\Bin\MsBuild.exe&quot;&quot;">
+  <arg>relative path\to\buildfile.msbuild</arg>
+  <arg>/T:rebuild</arg>
+  <arg>/P:Configuration=Release"</arg>
+  <arg>/m</arg>
+</exec> 
