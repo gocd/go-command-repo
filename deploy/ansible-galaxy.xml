@@ -1,0 +1,14 @@
+<!--
+name: ansible-galaxy install requirements
+description: Install roles from ansible galaxy
+moreinfo: https://galaxy.ansible.com/intro
+keywords: ansible, galaxy, roles, ansible-galaxy
+author: Milan Milosevic <milansm@gmail.com>
+authorinfo: https://twitter.com/milannister
+-->
+
+<exec command="ansible-galaxy">
+        <arg>install</arg>
+        <arg>-r</arg>
+        <arg>requirements.yml</arg>
+</exec>
