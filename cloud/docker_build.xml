@@ -1,6 +1,6 @@
 <!--
 name: docker build
-description: build a docker image
+description: Build a docker image
 keywords: cloud, docker, image
 moreinfo: https://docs.docker.com/engine/reference/commandline/build/
 author: Thomas Sjogren

@@ -1,6 +1,6 @@
 <!--
 name: docker rm
-description: remove a container
+description: Remove a container
 keywords: cloud, docker, container
 moreinfo: https://docs.docker.com/engine/reference/commandline/rm/
 author: Thomas Sjogren

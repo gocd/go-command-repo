@@ -1,6 +1,6 @@
 <!--
 name: docker run
-description: run a docker container
+description: Run a docker container
 keywords: cloud, docker, container
 moreinfo: https://docs.docker.com/engine/reference/commandline/run/
 author: Thomas Sjogren
