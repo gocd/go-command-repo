@@ -1,0 +1,14 @@
+<!--
+name: docker run
+description: run a docker container
+keywords: cloud, docker, container
+moreinfo: https://docs.docker.com/engine/reference/commandline/run/
+author: Thomas Sjogren
+authorinfo: https://github.com/konstruktoid
+-->
+<exec command="docker">
+<arg>run</arg>
+<arg>--rm</arg>
+<arg>--cap-drop=all</arg>
+<arg>imagename:latest</arg>
+</exec>
