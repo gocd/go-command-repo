@@ -1,0 +1,21 @@
+<!--
+name: docker build
+description: build a docker image
+keywords: cloud, docker, image
+moreinfo: https://docs.docker.com/engine/reference/commandline/build/
+author: Thomas Sjogren
+authorinfo: https://github.com/konstruktoid
+-->
+<exec command="docker">
+<arg>build</arg>
+<arg>--no-cache</arg>
+<arg>--tag</arg>
+<arg>imagename:latest</arg>
+<arg>--tag</arg>
+<arg>imagename:commit</arg>
+<arg>--label</arg>
+<arg>org.label-schema.name="imagename"</arg>
+<arg>--file</arg>
+<arg>Dockerfile</arg>
+<arg>.</arg>
+</exec>
