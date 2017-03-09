@@ -1,0 +1,13 @@
+<!--
+name: docker rm
+description: Remove a container
+keywords: cloud, docker, container
+moreinfo: https://docs.docker.com/engine/reference/commandline/rm/
+author: Thomas Sjogren
+authorinfo: https://github.com/konstruktoid
+-->
+<exec command="docker">
+<arg>rm</arg>
+<arg>--force</arg>
+<arg>imagename:latest</arg>
+</exec>
