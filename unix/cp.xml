@@ -1,0 +1,13 @@
+<!--
+name: cp
+description: copy files
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://man7.org/linux/man-pages/man1/cp.1.html
+keywords: cp
+-->
+<exec command="/bin/cp">
+    <arg>-rf</arg>
+    <arg>source-file</arg>
+    <arg>/dest-directory</arg>
+</exec>
