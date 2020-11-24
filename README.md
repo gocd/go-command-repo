@@ -1,3 +1,7 @@
+Archived
+========
+After moving to the new PipelineConfig SPA, GoCD no longer supports command lookups. All code related to the Command Repo is removed as well, in [this PR]( https://github.com/gocd/gocd/pull/8766). Hence this repo is archived.
+
 A command repository for Go
 ===========================
 
